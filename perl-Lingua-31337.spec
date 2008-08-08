@@ -1,6 +1,6 @@
 %define module   Lingua-31337
 %define version    0.02
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{module}
 Version:    %{version}
