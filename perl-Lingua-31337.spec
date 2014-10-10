@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
 License:	GPL+ or Artistic
