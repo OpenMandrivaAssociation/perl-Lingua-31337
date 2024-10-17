@@ -8,7 +8,7 @@ Release:	4
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Lingua/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
