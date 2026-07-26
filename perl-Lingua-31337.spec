@@ -1,15 +1,13 @@
 %define upstream_name    Lingua-31337
-%define upstream_version 0.02
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	5
+Version:	0.02
+Release:	6
 
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Lingua-31337
-Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/Lingua-31337-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/Lingua-31337-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -19,7 +17,7 @@ BuildArch:	noarch
 P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
