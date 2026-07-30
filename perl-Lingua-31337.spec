@@ -1,13 +1,14 @@
 %define upstream_name    Lingua-31337
+%define upstream_version 0.02
 Name:		perl-%{upstream_name}
 Version:	0.02
-Release:	6
+Release:	1
 
 Summary:	P3RL M0DU1E 7O c0NVer7 7ext 7O C0o1 741k
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Lingua-31337
-Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/Lingua-31337-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CW/CWEST/Lingua-31337-0.02.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -34,19 +35,3 @@ make test
 %{_mandir}/man3/*
 %{perl_vendorlib}/Lingua
 
-%changelog
-* Tue Jul 28 2009 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-1mdv2010.0
-+ Revision: 402568
-- update to 0.56
-
-* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.02-2mdv2009.0
-+ Revision: 268538
-- rebuild early 2009.0 package (before pixel changes)
-
-* Sat May 31 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.02-1mdv2009.0
-+ Revision: 213736
-- import perl-Lingua-31337
-
-
-* Sat May 31 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.02-1mdv2009.0
-- first mdv release
